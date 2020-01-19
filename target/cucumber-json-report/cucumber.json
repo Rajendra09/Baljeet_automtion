@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Submit contact us form successfully",
+        "description": "",
+        "id": "contact-us-form;submit-contact-us-form-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2924303555,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267792481,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to contact us form",
+            "match": {
+              "location": "ContactUsStepDef.navigate_to_contact_us_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1135098259,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i submit contact us form with correct data",
+            "match": {
+              "location": "ContactUsStepDef.i_submit_contact_us_form_with_correct_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159345582,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i should get success message",
+            "match": {
+              "location": "ContactUsStepDef.i_should_get_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@P1"
+          }
+        ]
+      }
+    ],
+    "name": "Contact us form",
+    "description": "",
+    "id": "contact-us-form",
+    "keyword": "Feature",
+    "uri": "Contactus.feature"
+  }
+]

@@ -4,11 +4,14 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import helper.Helper;
+
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import pageObjects.ContactUsPage;
+
 import static helper.Helper.getWebDriver;
 
 public class ContactUsStepDef {
@@ -32,17 +35,13 @@ public class ContactUsStepDef {
 
         // open the new tab here
 
-        for (String handle :getWebDriver().getWindowHandles()) {
+        for (String handle : getWebDriver().getWindowHandles()) {
             if (!handle.equals(currentWindow)) {
-               getWebDriver().switchTo().window(handle);
+                getWebDriver().switchTo().window(handle);
             }
         }
 
     }
-
-
-
-
 
     @When("^i submit contact us form with correct data$")
     public void i_submit_contact_us_form_with_correct_data() throws Throwable {
@@ -55,7 +54,7 @@ public class ContactUsStepDef {
 
     @Then("^i should get success message$")
     public void i_should_get_success_message() throws Throwable {
-        String succesMessage =getWebDriver().findElement(By.xpath("//h1")).getText();
+        String succesMessage = getWebDriver().findElement(By.xpath("//h1")).getText();
         Assert.assertEquals("Thank You for your Message!", succesMessage);
         getWebDriver().quit();
     }
@@ -71,9 +70,9 @@ public class ContactUsStepDef {
 
     @Then("^i should get error message$")
     public void i_should_get_error_message() throws Throwable {
-        String message =getWebDriver().findElement(By.xpath("//body")).getText();
-        String exepctedMessage="Error: Invalid email address";
-        String expectedMessageSecond="Error: all fields are required";
+        String message = getWebDriver().findElement(By.xpath("//body")).getText();
+        String exepctedMessage = "Error: Invalid email address";
+        String expectedMessageSecond = "Error: all fields are required";
         Assert.assertTrue(message.contains(exepctedMessage));
         Assert.assertTrue(message.contains(expectedMessageSecond));
 

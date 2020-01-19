@@ -8,7 +8,7 @@ public class Helper  {
     private static WebDriver REAL_DRIVER;
 
     public static void openBrowser() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Job Prep\\BrowserDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdriver/chromedriver/mac/chromedriver");
         REAL_DRIVER = new ChromeDriver();
         REAL_DRIVER.get("http://webdriveruniversity.com/index.html");
     }
