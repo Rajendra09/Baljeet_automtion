@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="49" failures="0" name="testRunner.RunTest" time="0.913" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.4+11"/>
+    <property name="sun.boot.library.path" value="/Users/rajensingh/.sdkman/candidates/java/11.0.4.hs-adpt/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/rajensingh/Documents/Baljeet/Baljeet_automtion"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/rajensingh/Documents/Baljeet/Baljeet_automtion"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.4+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/s7/bnh4_ygd459fz2jhp91qcgms4xfp0j/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rajensingh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/rajensingh"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="rajensingh"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.home" value="/Users/rajensingh/.sdkman/candidates/java/11.0.4.hs-adpt"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Submit contact us form successfully" name="Given open web driver university web page" time="0.004"/>
+  <testcase classname="Scenario: Submit contact us form successfully" name="And navigate to contact us form" time="0"/>
+  <testcase classname="Scenario: Submit contact us form successfully" name="When i submit contact us form with correct data" time="0"/>
+  <testcase classname="Scenario: Submit contact us form successfully" name="Then i should get success message" time="0"/>
+  <testcase classname="Scenario: Submit contact us form successfully" name="Scenario: Submit contact us form successfully" time="0.003"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="And navigate to contact us form" time="0"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="When i submit contact us form with empty email" time="0"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="Then i should get error message" time="0"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="Scenario: Submit contact us form when all data fields are not provided" time="0.138"/>
+  <testcase classname="Scenario: login portal" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: login portal" name="And navigate to the login portal" time="0"/>
+  <testcase classname="Scenario: login portal" name="When fill the email and password" time="0"/>
+  <testcase classname="Scenario: login portal" name="Then click on login button successfully" time="0"/>
+  <testcase classname="Scenario: login portal" name="Scenario: login portal" time="0.142"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="And navigate to the login portal" time="0"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="When either email or password is incorrect" time="0"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="Then not login" time="0"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="Scenario: login portal will not login if either password or email is incorrect" time="0.126"/>
+  <testcase classname="Scenario: click the Button Click and show the all necessary part" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: click the Button Click and show the all necessary part" name="And navigate to Button Click" time="0"/>
+  <testcase classname="Scenario: click the Button Click and show the all necessary part" name="Scenario: click the Button Click and show the all necessary part" time="0.135"/>
+  <testcase classname="Scenario: check in to do list" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: check in to do list" name="And navigate to the To do list" time="0"/>
+  <testcase classname="Scenario: check in to do list" name="Then add the new list" time="0"/>
+  <testcase classname="Scenario: check in to do list" name="Then delete the old list" time="0"/>
+  <testcase classname="Scenario: check in to do list" name="Scenario: check in to do list" time="0.129"/>
+  <testcase classname="Scenario: open the page object model" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="And navigate to page object model" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then show the items" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then open the new items" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then back to the  contact us page" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="When i submit contact us form with correct data" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then i should get success message" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then fill the  correct data" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then click submit" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Scenario: open the page object model" time="0.001"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="Given open web driver university web page" time="0.001"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="And navigate to the accordion and text affect" time="0"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="Then open the manual testing" time="0"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="Given open web driver university web page" time="0.001"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="And navigate to contact us form" time="0"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="When i submit contact us form with correct data" time="0"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="Scenario: Accordion and Text affect" time="0.122"/>
+  <testcase classname="Scenario: DropDown page" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: DropDown page" name="And navigate to the dropdown" time="0"/>
+  <testcase classname="Scenario: DropDown page" name="When click on the dropdown list" time="0"/>
+  <testcase classname="Scenario: DropDown page" name="Scenario: DropDown page" time="0.111"/>
+</testsuite>
