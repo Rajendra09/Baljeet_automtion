@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="testRunner.RunTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="49" failures="0" name="testRunner.RunTest" time="0.913" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.4+11"/>
@@ -65,5 +65,49 @@
   <testcase classname="Scenario: Submit contact us form successfully" name="And navigate to contact us form" time="0"/>
   <testcase classname="Scenario: Submit contact us form successfully" name="When i submit contact us form with correct data" time="0"/>
   <testcase classname="Scenario: Submit contact us form successfully" name="Then i should get success message" time="0"/>
-  <testcase classname="Scenario: Submit contact us form successfully" name="Scenario: Submit contact us form successfully" time="0.001"/>
+  <testcase classname="Scenario: Submit contact us form successfully" name="Scenario: Submit contact us form successfully" time="0.003"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="And navigate to contact us form" time="0"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="When i submit contact us form with empty email" time="0"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="Then i should get error message" time="0"/>
+  <testcase classname="Scenario: Submit contact us form when all data fields are not provided" name="Scenario: Submit contact us form when all data fields are not provided" time="0.138"/>
+  <testcase classname="Scenario: login portal" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: login portal" name="And navigate to the login portal" time="0"/>
+  <testcase classname="Scenario: login portal" name="When fill the email and password" time="0"/>
+  <testcase classname="Scenario: login portal" name="Then click on login button successfully" time="0"/>
+  <testcase classname="Scenario: login portal" name="Scenario: login portal" time="0.142"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="And navigate to the login portal" time="0"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="When either email or password is incorrect" time="0"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="Then not login" time="0"/>
+  <testcase classname="Scenario: login portal will not login if either password or email is incorrect" name="Scenario: login portal will not login if either password or email is incorrect" time="0.126"/>
+  <testcase classname="Scenario: click the Button Click and show the all necessary part" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: click the Button Click and show the all necessary part" name="And navigate to Button Click" time="0"/>
+  <testcase classname="Scenario: click the Button Click and show the all necessary part" name="Scenario: click the Button Click and show the all necessary part" time="0.135"/>
+  <testcase classname="Scenario: check in to do list" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: check in to do list" name="And navigate to the To do list" time="0"/>
+  <testcase classname="Scenario: check in to do list" name="Then add the new list" time="0"/>
+  <testcase classname="Scenario: check in to do list" name="Then delete the old list" time="0"/>
+  <testcase classname="Scenario: check in to do list" name="Scenario: check in to do list" time="0.129"/>
+  <testcase classname="Scenario: open the page object model" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="And navigate to page object model" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then show the items" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then open the new items" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then back to the  contact us page" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="When i submit contact us form with correct data" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then i should get success message" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then fill the  correct data" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Then click submit" time="0"/>
+  <testcase classname="Scenario: open the page object model" name="Scenario: open the page object model" time="0.001"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="Given open web driver university web page" time="0.001"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="And navigate to the accordion and text affect" time="0"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="Then open the manual testing" time="0"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="Given open web driver university web page" time="0.001"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="And navigate to contact us form" time="0"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="When i submit contact us form with correct data" time="0"/>
+  <testcase classname="Scenario: Accordion and Text affect" name="Scenario: Accordion and Text affect" time="0.122"/>
+  <testcase classname="Scenario: DropDown page" name="Given open web driver university web page" time="0"/>
+  <testcase classname="Scenario: DropDown page" name="And navigate to the dropdown" time="0"/>
+  <testcase classname="Scenario: DropDown page" name="When click on the dropdown list" time="0"/>
+  <testcase classname="Scenario: DropDown page" name="Scenario: DropDown page" time="0.111"/>
 </testsuite>

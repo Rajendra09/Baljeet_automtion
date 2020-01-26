@@ -1,21 +1,32 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "Submit contact us form successfully",
         "description": "",
         "id": "contact-us-form;submit-contact-us-form-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1470110,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2924303555,
+              "duration": 4541263371,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "open web driver university web page",
             "match": {
               "location": "ContactUsStepDef.open_web_driver_university_web_page()"
@@ -24,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 267792481,
+              "duration": 345331124,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "navigate to contact us form",
             "match": {
               "location": "ContactUsStepDef.navigate_to_contact_us_form()"
@@ -36,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 1135098259,
+              "duration": 1243275746,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "i submit contact us form with correct data",
             "match": {
               "location": "ContactUsStepDef.i_submit_contact_us_form_with_correct_data()"
@@ -48,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 159345582,
+              "duration": 173089428,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "i should get success message",
             "match": {
               "location": "ContactUsStepDef.i_should_get_success_message()"
@@ -61,8 +72,656 @@
         ],
         "tags": [
           {
-            "line": 2,
+            "line": 3,
             "name": "@P1"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Submit contact us form when all data fields are not provided",
+        "description": "",
+        "id": "contact-us-form;submit-contact-us-form-when-all-data-fields-are-not-provided",
+        "after": [
+          {
+            "result": {
+              "duration": 135742512,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2677527349,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262836682,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "navigate to contact us form",
+            "match": {
+              "location": "ContactUsStepDef.navigate_to_contact_us_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 912483674,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i submit contact us form with empty email",
+            "match": {
+              "location": "ContactUsStepDef.i_submit_contact_us_form_with_empty_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44533408,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i should get error message",
+            "match": {
+              "location": "ContactUsStepDef.i_should_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@P2"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "login portal",
+        "description": "",
+        "id": "contact-us-form;login-portal",
+        "after": [
+          {
+            "result": {
+              "duration": 140430760,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3419166682,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291857880,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "navigate to the login portal",
+            "match": {
+              "location": "LoginPortalStepDef.navigate_to_the_login_portal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1438827134,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "fill the email and password",
+            "match": {
+              "location": "LoginPortalStepDef.when_navigate_the_login_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156412323,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on login button successfully",
+            "match": {
+              "location": "LoginPortalStepDef.login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@P3"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "login portal will not login if either password or email is incorrect",
+        "description": "",
+        "id": "contact-us-form;login-portal-will-not-login-if-either-password-or-email-is-incorrect",
+        "after": [
+          {
+            "result": {
+              "duration": 124287799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2463210937,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367104643,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "navigate to the login portal",
+            "match": {
+              "location": "LoginPortalStepDef.navigate_to_the_login_portal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542769160,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "either email or password is incorrect",
+            "match": {
+              "location": "LoginPortalStepDef.either_email_or_password_is_incorrect()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158631039,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "not login",
+            "match": {
+              "location": "LoginPortalStepDef.not_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@P4"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "click the Button Click and show the all necessary part",
+        "description": "",
+        "id": "contact-us-form;click-the-button-click-and-show-the-all-necessary-part",
+        "after": [
+          {
+            "result": {
+              "duration": 134123121,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2476436549,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300746927,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "navigate to Button Click",
+            "match": {
+              "location": "ButtonClickStepDef.navigate_to_Button_Click()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@P5"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "check in to do list",
+        "description": "",
+        "id": "contact-us-form;check-in-to-do-list",
+        "after": [
+          {
+            "result": {
+              "duration": 128301868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2713796349,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 320241739,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "navigate to the To do list",
+            "match": {
+              "location": "ToDoListStepDef.navigate_to_the_To_do_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 524974572,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "add the new list",
+            "match": {
+              "location": "ToDoListStepDef.add_the_new_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119466104,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "delete the old list",
+            "match": {
+              "location": "ToDoListStepDef.delete_the_old_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@P6"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "open the page object model",
+        "description": "",
+        "id": "contact-us-form;open-the-page-object-model",
+        "after": [
+          {
+            "result": {
+              "duration": 145120,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2507251790,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 328736905,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "navigate to page object model",
+            "match": {
+              "location": "PageObStepDef.navigate_to_page_object_model()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430052172,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "show the items",
+            "match": {
+              "location": "PageObStepDef.show_the_items()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 852706472,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "open the new items",
+            "match": {
+              "location": "PageObStepDef.open_the_new_items()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 439966812,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "back to the  contact us page",
+            "match": {
+              "location": "PageObStepDef.back_to_the_contact_us_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2612500077,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "i submit contact us form with correct data",
+            "match": {
+              "location": "ContactUsStepDef.i_submit_contact_us_form_with_correct_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187425509,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "i should get success message",
+            "match": {
+              "location": "ContactUsStepDef.i_should_get_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53412,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "fill the  correct data",
+            "match": {
+              "location": "PageObStepDef.fill_the_correct_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36154,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "click submit",
+            "match": {
+              "location": "PageObStepDef.click_submit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@P7"
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "Accordion and Text affect",
+        "description": "",
+        "id": "contact-us-form;accordion-and-text-affect",
+        "after": [
+          {
+            "result": {
+              "duration": 120254340,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3112719136,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303171189,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "navigate to the accordion and text affect",
+            "match": {
+              "location": "AccordionStepDef.navigate_to_the_accordion_and_text_affect()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333036968,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "open the manual testing",
+            "match": {
+              "location": "AccordionStepDef.open_the_manual_testing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2492695811,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 294668855,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "navigate to contact us form",
+            "match": {
+              "location": "ContactUsStepDef.navigate_to_contact_us_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1134596604,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "i submit contact us form with correct data",
+            "match": {
+              "location": "ContactUsStepDef.i_submit_contact_us_form_with_correct_data()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 56,
+            "name": "@P8"
+          }
+        ]
+      },
+      {
+        "line": 66,
+        "name": "DropDown page",
+        "description": "",
+        "id": "contact-us-form;dropdown-page",
+        "after": [
+          {
+            "result": {
+              "duration": 109561257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2420284679,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "open web driver university web page",
+            "match": {
+              "location": "ContactUsStepDef.open_web_driver_university_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 293421493,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "navigate to the dropdown",
+            "match": {
+              "location": "DropdownStepDef.navigate_to_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68432,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "click on the dropdown list",
+            "match": {
+              "location": "DropdownStepDef.click_on_the_dropdown_list()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 65,
+            "name": "@P9"
           }
         ]
       }
@@ -71,6 +730,12 @@
     "description": "",
     "id": "contact-us-form",
     "keyword": "Feature",
-    "uri": "Contactus.feature"
+    "uri": "Contactus.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@P1"
+      }
+    ]
   }
 ]

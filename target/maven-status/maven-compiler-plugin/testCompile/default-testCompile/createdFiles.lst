@@ -5,6 +5,7 @@ pageObjects/ToDoListPage.class
 pageObjects/AccordionPage.class
 stepDefination/ContactUsStepDef.class
 pageObjects/ButtonClickPage.class
+stepDefination/Hooks.class
 stepDefination/ToDoListStepDef.class
 stepDefination/AccordionStepDef.class
 helper/PageObject.class

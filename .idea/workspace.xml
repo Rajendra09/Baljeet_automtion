@@ -2,45 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ea1293-3cf2-4936-a314-d9ed84994846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/report/JsonReportMerger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/chromedriver/linux/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/chromedriver/mac/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/chromedriver/win/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newallscripts.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/DropDownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/DropDownPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ContactUsStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ContactUsStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/RunTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/feature/Contactus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/Contactus.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/SmokeTestReport/testresults.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/htmltest/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/htmltest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/htmltest/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/htmltest/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/htmltest/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/newallscripts.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-json-report/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-json-report/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/report-feature_3772503973.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/report-feature_3772503973.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/report-tag_2147547680.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-cucumber-report/cucumber-html-reports/report-tag_2147547680.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/newallscripts-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/newallscripts-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testRunner.RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-testRunner.RunTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testRunner.RunTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testRunner.RunTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/feature/Contactus.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/feature/Contactus.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helper/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/helper/Helper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helper/PageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/helper/PageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/AccordionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/AccordionPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/ButtonClickPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/ButtonClickPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/ContactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/ContactUsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/LoginPortalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/LoginPortalPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/PageObPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/PageObPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/ToDoListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/ToDoListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/AccordionStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/AccordionStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/ButtonClickStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/ButtonClickStepDef.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/ContactUsStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/ContactUsStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/DropdownStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/DropdownStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/LoginPortalStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/LoginPortalStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/PageObStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/PageObStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/ToDoListStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/ToDoListStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testRunner/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testRunner/RunTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,15 +39,17 @@
     <session id="-1486119250">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="feature" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
           <entry key="json" value="3" />
           <entry key="phantomjs" value="1" />
           <entry key="xml" value="1" />
@@ -78,7 +59,7 @@
         <counts>
           <entry key="Cucumber" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="JSON" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
@@ -86,24 +67,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="104" />
+          <entry key="feature" value="1" />
+          <entry key="java" value="204" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="104" />
+          <entry key="Cucumber" value="1" />
+          <entry key="JAVA" value="204" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
+            <state relative-caret-position="-165">
               <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
             </state>
           </provider>
@@ -140,6 +123,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefination/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testRunner/RunTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -156,17 +151,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefination/AccordionStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="8" selection-end-column="22" />
+            <state relative-caret-position="134">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/feature/Contactus.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="491">
+              <caret line="71" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -174,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefination/ContactUsStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="450">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -202,12 +197,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/DropDownPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/RunCucumberIT.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/feature/Contactus.feature" />
         <option value="$PROJECT_DIR$/src/test/java/testRunner/RunTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/helper/Helper.java" />
         <option value="$PROJECT_DIR$/src/test/java/report/JsonReportMerger.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepDefination/ContactUsStepDef.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefination/ContactUsStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefination/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/feature/Contactus.feature" />
       </list>
     </option>
   </component>
@@ -224,7 +221,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -275,7 +272,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testRunner" type="462c0819:PsiDirectoryNode" />
+              <item name="stepDefination" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Baljeet_automtion" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +298,14 @@
               <item name="Baljeet_automtion" type="b2602c69:ProjectViewProjectNode" />
               <item name="Baljeet_automtion" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-json-report" type="462c0819:PsiDirectoryNode" />
+              <item name="html-cucumber-report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Baljeet_automtion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Baljeet_automtion" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="html-cucumber-report" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-html-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +318,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579452765940" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580029073539" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -457,47 +461,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577770241963</updated>
-      <workItem from="1579438685072" duration="4108000" />
+      <workItem from="1579438685072" duration="5135000" />
+      <workItem from="1580027772864" duration="1155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4108000" />
+    <option name="totallyTimeSpent" value="6290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.25561497" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4397959" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,6 +524,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/webdriver/phantomjs/mac/phantomjs" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunCucumberIT.java" />
+    <entry file="file://$PROJECT_DIR$/target/cucumber-report/htmltest/index.html" />
+    <entry file="file://$PROJECT_DIR$/target/cucumber-report/SmokeTestReport/testresults.json" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/DropDownPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -526,28 +535,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefination/AccordionStepDef.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="8" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="10" column="113" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/webdriver/phantomjs/mac/phantomjs">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RunCucumberIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-report/htmltest/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-report/SmokeTestReport/testresults.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testRunner/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -556,10 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helper/Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefination/ContactUsStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="113" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
+        <state relative-caret-position="450">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -576,24 +569,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/Contactus.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefination/AccordionStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefination/ContactUsStepDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="134">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
+        <state relative-caret-position="-165">
           <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefination/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/Contactus.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="71" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="71" />
         </state>
       </provider>
     </entry>
